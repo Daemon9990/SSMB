@@ -33,7 +33,7 @@ ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-100').split()] #Movie Database Channel Id
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002163502011'))  #Log Channel Id
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1002163502011'))  #Streming Log Channel Id
-MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-100'))  #Movie Update Channel Id
+MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1001511251154'))  #Movie Update Channel Id
 PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002163502011')) #Premium Subscription Log Channel Id
 reqst_channel = environ.get('REQST_CHANNEL_ID', '-100') #Movie Request Channel Id
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
@@ -105,7 +105,7 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).
 MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "False")), False)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), True)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
-PM_SEARCH = bool(environ.get('PM_SEARCH', True)) 
+PM_SEARCH = bool(environ.get('PM_SEARCH', False)) 
 EMOJI_MODE = bool(environ.get('EMOJI_MODE', False)) 
 
 LANGUAGES = ["malayalam", "", "tamil", "", "english", "", "hindi", "", "telugu", "", "kannada", "", "gujarati", "", "marathi", "", "punjabi", ""]

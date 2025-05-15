@@ -1,6 +1,7 @@
 class script(object):
-    START_TXT = """<b>​​​ʜɪɪ 👋, 
-ɪ ᴀᴍ ᴛʜᴇ ᴍᴏꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟʟ ᴍᴇᴅɪᴀ ᴘʀᴏᴠɪᴅᴇʀ ʙᴏᴛ. ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇᴅ ᴀʟʟ ʟᴀᴛᴇꜱᴛ ᴍᴏᴠɪᴇꜱ ᴏʀ ꜱᴇʀɪᴇꜱ. ᴊᴜꜱᴛ ꜱᴇɴᴅ ᴍᴇ ᴛʜᴇ ᴄᴏʀʀᴇᴄᴛ ɴᴀᴍᴇ .</b>"""
+    START_TXT = """<b>​​​<b><blockquote>Hᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
+    
+ɪ ᴀᴍ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ Bot I can Help You To Find Movies Here</b>"""
 
     FEATURES_TXT = """<b>ʜᴇʀᴇ ɪꜱ ᴀʟʟ ᴍʏ ꜰᴜɴᴛɪᴏɴꜱ.</b>"""
 
@@ -10,7 +11,7 @@ class script(object):
 ├⍟ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a>
 ├⍟ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 𝟹</a> 
 ├⍟ ᴅᴀᴛᴀʙᴀꜱᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
-├⍟ ꜱᴇʀᴠᴇʀ : <a href='https://heroku.com/'>ʜᴇʀᴏᴋᴜ</a> 
+├⍟ ꜱᴇʀᴠᴇʀ : <a href='https://vps.com/'>VPS</a> 
 ├⍟ ꜱᴛᴀᴛᴜꜱ : ᴠ4.8 [ ꜱᴛᴀʙʟᴇ ]
 ╰───────────────⍟</b>"""
 
@@ -268,18 +269,16 @@ Nᴀᴍᴇ - {}
 
     PREMIUM_TEXT = """<blockquote>🎖️ <b>ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟᴀɴs</b></blockquote>
 
-◉ 07 ᴅᴀʏꜱ - 15 ₹
-◉ 15 ᴅᴀʏꜱ - 30 ₹
-◉ 01 ᴍᴏɴᴛʜꜱ - 60 ₹
-◉ 02 ᴍᴏɴᴛʜꜱ - 120 ₹
-◉ 03 ᴍᴏɴᴛʜꜱ - 220 ₹
+◉ 28 ᴅᴀʏꜱ - 15 ₹
+◉ 60 ᴅᴀʏꜱ - 30 ₹
+◉ 90 Days - 45 ₹
+◉ 180 Days - 75 ₹
+◉ 1 year   - 150 ₹
 
 •─────•─────────•─────•
-💵 ᴜᴘɪ ɪᴅ - ⚠️ <b><u>ᴛʜɪꜱ ꜱᴇʀᴠɪᴄᴇ ɪꜱ ᴛᴇᴍᴘᴏʀᴀʀʏ ᴄʟᴏꜱᴇᴅ.</u></b>
+💵 ᴜᴘɪ ɪᴅ - ⚠️ <b><u>meruguvasu963@oksbi</u></b>
 
-🏷️ <a href='https://t.me/+blcE2jS-iGtkMjNl'>ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ ᴘʀᴏᴏꜰ</a>
-
-‼️ ᴍᴜꜱᴛ ꜱᴇɴᴅ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ᴀꜰᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ.
+‼️ ᴍᴜꜱᴛ ꜱᴇɴᴅ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ to @jonsnowxbot ᴀꜰᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ.
 ‼️ ᴀꜰᴛᴇʀ ꜱᴇɴᴅɪɴɢ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ɢɪᴠᴇ ᴜꜱ ꜱᴏᴍᴇᴛɪᴍᴇꜱ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴘʀᴇᴍɪᴜᴍ ʟɪꜱᴛ."""
    
     
@@ -311,7 +310,7 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b><a href="https://t.me/SilentXBotz">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a https://t.me/SilentXBotz>[SilentXBotz]</a></b>"""
+    CAPTION = """<b><a href="https://t.me/bujjibackup">{file_caption}</a></b>\n\n<b>⚜️ Powered By : <a https://t.me/bujjiofc>[TZ&Bujji]</a></b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>🏷 Title</b>: <a href={url}>{title}</a>

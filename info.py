@@ -138,9 +138,9 @@ else:
     ON_HEROKU = False
 HAS_SSL = bool(getenv('HAS_SSL', True))
 if HAS_SSL:
-    URL = "https://involved-merrie-daemon9990-8b541ecd.koyeb.app/".format(FQDN)
+    URL = "https://nasty-yetta-daemon9990-53c7d6c8.koyeb.app/".format(FQDN)
 else:
-    URL = "https://involved-merrie-daemon9990-8b541ecd.koyeb.app/".format(FQDN)
+    URL = "https://nasty-yetta-daemon9990-53c7d6c8.koyeb.app/".format(FQDN)
 
 
 REACTIONS = ["🤝", "😇", "🤗", "😍", "👍", "🎅", "😐", "🥰", "🤩", "😱", "🤣", "😘", "👏", "😛", "😈", "🎉", "⚡️", "🫡", "🤓", "😎", "🏆", "🔥", "🤭", "🌚", "🆒", "👻", "😁"]
